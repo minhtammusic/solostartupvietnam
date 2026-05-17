@@ -1,0 +1,8 @@
+{
+  "name": "Remix: SoloStartup Vietnam",
+  "description": "Nền tảng học tập Khởi nghiệp dành cho học sinh, sinh viên và người mới. Bao gồm khóa học, mạng lưới chuyên gia và cộng đồng khởi nghiệp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
