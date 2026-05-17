@@ -33,6 +33,7 @@ import { SpaceView } from './components/SpaceView';
 import { ProfileView } from './components/views/ProfileView';
 import { CertificatesView } from './components/views/CertificatesView';
 import { AIGuideView } from './components/views/AIGuideView';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [lang, setLang] = useState('vi');
@@ -395,6 +396,7 @@ export default function App() {
           <p className="text-sm font-bold">{toastMessage}</p>
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
